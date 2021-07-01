@@ -93,19 +93,59 @@
 
 //bai6: Object
 
-var human = {
-    name : "Bao", //nho dau phay
-    age : 19, //chu y dau 2 cham " : "
-    eat : function(){
-        console.log("I'm eating rice")
-    },
-    drink : function(){
-        console.log("I'm drinking orange")
-    }
-}
-//goi thuoc tinh 2 cach
-human.name;
-human['name'];
+// var human = {
+//     name : "Bao", //nho dau phay
+//     age : 19, //chu y dau 2 cham " : "
+//     eat : function(){
+//         console.log("I'm eating rice")
+//     },
+//     drink : function(){
+//         console.log("I'm drinking orange")
+//     }
+// }
+// //goi thuoc tinh 2 cach
+// human.name;
+// human['name'];
 
-console.log(human.name);
-human.eat();
+// console.log(human.name);
+// human.eat();
+
+//bai7 mang( array)
+
+// var cars = ["Lambo","Nissan"];//khai bao mang
+
+// console.log(cars[0]);
+// cars.push("Toyota");//add an element
+// console.log(cars);
+// cars.pop();//removes last element
+
+// var a = cars.length; // return length of array
+// console.log(a);
+
+// cars = cars.sort();//sap xep element theo a -> z
+// console.log(cars);
+
+// cars = cars.reverse();//dao nguoc ptu(reverse element in array)
+
+//bai8 if else
+// var ex = window.prompt("Your ex:");
+// if(ex==1){
+//     console.log("Noob")
+// }
+// else{
+//     console.log("Pro")
+// }
+
+//bai9 switch case
+// var age = window.prompt("Your age:")
+// switch(age){
+//     case "18":
+//         console.log("Noob");
+//         break;
+//     case "19":
+//         console.log("Pro");
+//         break;
+//     default :
+//         console.log("Get out in here");
+// }
+
